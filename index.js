@@ -11,3 +11,12 @@ function writeCards(names, event) {
 }
 
 console.log(writeCards(["Ana", "Stuart", "Glenn"], "birthday"));
+
+function countDown() {
+    let count = 10
+    while (count >=0) {
+        console.log(count)
+        count--
+    }
+}
+countDown()
